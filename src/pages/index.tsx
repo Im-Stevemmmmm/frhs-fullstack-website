@@ -1,13 +1,12 @@
-import { PageWidthBoundry } from '@app/components/PageWidthBoundry';
+import { PageWidthBoundary } from '@app/components/PageWidthBoundary';
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <div>
-      <div className="p-36">
-        <PageWidthBoundry>
-          <h1 className="text-4xl">Take on software development</h1>
-        </PageWidthBoundry>
-      </div>
+      <Head>
+        <title>Franklin Full Stack Developers</title>
+      </Head>
     </div>
   );
 };
